@@ -1,0 +1,92 @@
+/* Estilos generales */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #f4f4f4, #eae2f8);
+    color: #333;
+    line-height: 1.8;
+}
+
+/* Encabezado */
+header {
+    background-color: #673AB7;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+header a1 {
+    margin: 0;
+    font-size: 2.8em;
+    letter-spacing: 1px;
+}
+
+/* Navegación */
+nav {
+    background-color: #9575CD;
+    padding: 10px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+nav a {
+    color: #fff;
+    font-size: 1em;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 8px 15px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+nav a:hover {
+    background-color: #D1C4E9;
+    color: #4A148C;
+    border-color: #4A148C;
+}
+
+/* Contenido principal */
+main {
+    padding: 30px;
+    max-width: 1200px;
+    margin: 20px auto;
+    background: #B39DDB;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    color: #fff;
+}
+
+/* Pie de página */
+footer {
+    background-color: #512DA8;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 0.9em;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Diseño responsivo */
+@media (max-width: 768px) {
+    header a1 {
+        font-size: 2.2em;
+    }
+
+    nav a {
+        display: block;
+        margin: 10px auto;
+        width: 90%;
+        text-align: center;
+    }
+
+    main {
+        padding: 20px;
+        margin: 10px;
+    }
+}
