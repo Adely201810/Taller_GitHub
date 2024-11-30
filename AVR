@@ -1,0 +1,3 @@
+function Clicks() {
+    console.log(`Hola Bienvenidos ´);
+}
